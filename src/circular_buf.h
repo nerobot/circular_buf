@@ -15,7 +15,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-typedef struct circular_buf_struct {
+typedef struct circular_buf_struct
+{
   uint8_t capacity;
   uint8_t index;
   uint8_t outdex;
