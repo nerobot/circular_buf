@@ -32,11 +32,11 @@ The function will then add the address of the array into the circular
 buffer's struct for later use.
 
 Example:
-@code
+```
 const uint8_t buf_size = 8;
 circular_buf_t circular_buf;
 circular_buf_t * p__circular_buf = &circular_buf;
 uint8_t p_buf_array[buf_size];
 
 p_circular_buf = circular_buf_create(buf_size, p_buf_array, p_circular_buf);
-@endcode
+```
