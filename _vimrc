@@ -14,7 +14,7 @@ augroup project
 augroup END
 
 let g:syntastic_c_check_header = 1
-let g:syntastic_c_include_dirs = ['vendor/ceedling/vendor/unity/src/', 'src/canbus_controller/', 'src/mcp2515_driver/', 'build/test/mocks/']
+let g:syntastic_c_include_dirs = ['vendor/ceedling/vendor/unity/src/', 'src/circular_buf/', 'build/test/mocks/']
 let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
